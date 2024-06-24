@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: abc
+  name: cookie
+credentials:
+  usernames:
+    harsha:
+      email: model@gamil.com
+      name: Harsha Model
+      password: $2b$12$nL8c3at8B/e0GN7MxgeCcuyMm31F/K0LCMvsXtgQZWPUK1LZdV4tK
+    kid:
+      email: shaik.kid@gmail.com
+      name: shaik kid
+      password: $2b$12$veUHDUOxMPpYTgIivZbUqufvgGlv3zX5uZ5np7dmGdmtOB0Z1e2q6
+    srisai:
+      email: srisai.chinthakindi10@gmail.com
+      name: srisai
+      password: $2b$12$mAfavQmeS/2OZyp7MSJXZuglVuisaNF9AlQJ/zgyMryT1pVwJxGDO
+preauthorized:
+  emails:
+  - srisai.chinthakindi10@gmail.com
