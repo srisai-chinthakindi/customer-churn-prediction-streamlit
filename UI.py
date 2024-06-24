@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 matplotlib.use('Agg')
 
 
-
-
 # adding image from local
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
@@ -24,7 +22,7 @@ def add_bg_from_local(image_file):
     )
 
 
-# Statistic Analysis
+# Real Time Statistic Analysis Chart
 def make_pie(sizes, text, colors, labels):
     col = [[i / 255. for i in c] for c in colors]
     fig, ax = plt.subplots()
